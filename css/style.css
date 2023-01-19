@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     src: url('../fonts/montserrat-v14-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     src: url('../fonts/montserrat-v14-latin-800.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('../fonts/montserrat-v14-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -64,19 +64,19 @@ img {
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1160px;
     margin: 0 auto;
     position: relative;
 }
 
 .section-tytle {
     font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 59px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
     position: relative;
     color: #313131;
-    z-index: 10;
+    z-index: 12;
 }
 
 a {
@@ -115,7 +115,7 @@ a {
 }
 
 .header__logo img, .footer__logo img {
-    max-width: 60px;
+    max-width: 50px;
 }
 
 .header__logo img, .header__logo span, .footer__logo img, .footer__logo span {
@@ -149,21 +149,21 @@ a {
 }
 
 .header__link, .footer__link {
-    color: #4B4B4B;
-    font-size: 16px;
-    padding: 10px;
+    color: #5b5757;
+    font-size: 14px;
+    padding: 12px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 
 .header__link::after, .footer__link::after {
     display: block;
     position: absolute;
-    bottom: 4px;
+    bottom: 5px;
     left: 0;
     width: 0;
-    height: 2px;
-    background-color: red;
+    height: 3px;
+    background-color: rgb(8, 0, 255);
     content: "";
     transition: width 0.3s ease-out;
 }
@@ -175,18 +175,18 @@ a {
 .header__online-center {
     font-weight: bold;
     color: white;
-    background: #ED1942;
+    background: #3919ed;
     padding: 12px 20px 12px;
     border-radius: 40px;
     letter-spacing: 1px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
     position: relative;
     z-index: 2;
 }
 
 .header__phone {
-    color: red;
-    font-size: 22px;
+    color: rgb(0, 8, 255);
+    font-size: 20px;
     font-weight: bold;
     position: relative;
     z-index: 2;
